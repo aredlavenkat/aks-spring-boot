@@ -4,4 +4,4 @@ WORKDIR /spring-boot-docker-complete
 COPY . .
 RUN chmod a+x ./mvnw
 RUN ./mvnw package -DskipTests
-ENTRYPOINT [ “java”, “-jar”, “target/spring-boot-docker-complete-0.0.1-SNAPSHOT.jar”]
+ENTRYPOINT [ "java", "-jar", "target/spring-boot-docker-complete-0.0.1-SNAPSHOT.jar"]
